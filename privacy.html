@@ -20,31 +20,56 @@
 </header>
 <main>
   <h1>Punch Pop privacy policy</h1>
-  <p class="lede">Last updated 11 November 2026. Applies to Punch Pop for iPhone.</p>
+  <p class="lede">Last updated 20 November 2026. Applies to Punch Pop for iPhone.</p>
 
   <div class="card">
-    <strong>In short:</strong> Punch Pop has no accounts and no analytics of our own, and the game sends nothing to us. It shows ads from Google AdMob: an occasional ad between runs, and an optional ad you can choose to watch at game over for a second chance. Google's ad software collects some device, usage and diagnostic data to show ads, measure them and prevent fraud. The game never asks to track you, so it can't read your iPhone's advertising identifier. A one-off Remove Ads purchase turns off the ads between runs. If you email us, we get your email address and what you write.
+    <strong>In short:</strong> Punch Pop is free, has no accounts and has nothing to buy. It shows ads from Google AdMob, and it sends information about how the game is played to GameAnalytics, an analytics service that works for us. In the UK, the EEA and Switzerland, and on iPhones set to Brazil, analytics starts only if you agree. Everywhere else it's on from the start, and the game tells you so. Anyone can switch it off in Settings. In US states with their own privacy laws, when Google offers its US privacy message, Settings also lets you ask Google not to sell or share your information for ads. The game asks once, with Apple's prompt, whether it may track you. If you tap Allow, Google and GameAnalytics get your iPhone's advertising identifier, and ads can be personalised to you. If you don't, nothing in the game changes. If you email us, we get your email address and what you write.
   </div>
 
   <h2>Who we are</h2>
-  <p>Punch Pop is made by Tom Stokolenko, a sole developer in the UK publishing as stoko ("we"). For UK data protection law, we're the controller of the personal data we handle ourselves, which is the emails you send us. We also chose to put Google's ad software in the game. Google decides how it uses the data that software collects, and is responsible for that use. You can contact us at <a href="mailto:hello@stokogames.com">hello@stokogames.com</a>.</p>
+  <p>Punch Pop is made by Tom Stokolenko, a sole developer in the UK publishing as stoko ("we"). For UK data protection law, we're the controller of the emails you send us and of the analytics data GameAnalytics collects for us. GameAnalytics handles that data only on our instructions. We also chose to put Google's ad software in the game. Google decides how it uses the data that software collects, and is responsible for that use. You can contact us at <a href="mailto:hello@stokogames.com">hello@stokogames.com</a>.</p>
 
   <h2>What the game stores on your device</h2>
-  <p>Your best score, settings, the run you're playing, your Learn to Play progress, whether you own Remove Ads, and a few counts the game uses to space out ads (such as how many runs you've played) are saved on your iPhone only. We can't see them, and deleting the app deletes them.</p>
+  <p>Your best score, settings (including your Analytics choice), the run you're playing, your Learn to Play progress and a few counts the game uses to space out ads (such as how many runs you've played) are saved on your iPhone. Deleting the app deletes them. GameAnalytics' software also keeps a small store of its own on your iPhone, such as its random analytics ID and events waiting to be sent.</p>
 
   <h2>What we receive</h2>
   <ul>
+    <li><strong>Analytics from GameAnalytics</strong>, if analytics is on. See <a href="#analytics">Analytics</a>.</li>
     <li><strong>Emails you send us.</strong> See <a href="#contacting-us">Contacting us</a>.</li>
     <li><strong>Combined reports from Google</strong>, for example how many ads were shown and what they earned. They don't identify you.</li>
     <li><strong>Combined statistics from Apple</strong>, explained under <a href="#apple">Apple</a>.</li>
   </ul>
-  <p>Nothing else. The game has no accounts, no analytics of our own, and doesn't send your scores or how you play to us.</p>
+  <p>The game has no accounts. It never sends your name, your email address, your contacts or anything you type.</p>
+
+  <h2 id="analytics">Analytics (GameAnalytics)</h2>
+  <p>When analytics is on, the game sends GameAnalytics a short record of things that happen in the game. Each record is made of numbers, yes-or-no answers and words from a fixed list. Nothing you type is ever in it. This is the full list:</p>
+  <ul>
+    <li><strong>Runs.</strong> When a run starts: how many runs you've played on this iPhone (counted up to 100) and where you started it from. Each time a run ends: why it ended, the score, how many turns it lasted, roughly how long it took, how far the difficulty had risen, how many colour chains you set off, how many rows were pushed in because a card had no room, whether it was a new best, and whether you had used the second chance.</li>
+    <li><strong>Learn to Play.</strong> Each step you finish or skip.</li>
+    <li><strong>Ads.</strong> Each step of an ad: asked for, loaded or failed to load, shown or failed to show, reward given, and closed, with the kind of ad and where in the game it was. Also any time the game had to end an ad itself because the ad never reported that it had closed.</li>
+    <li><strong>Second chance.</strong> When it's offered at game over, and whether you tapped it, turned it down, and got it after the ad.</li>
+    <li><strong>Ad timing.</strong> Each time the game decides whether to show an ad between runs: the reason for its answer (one of the reasons means it showed an ad). When it got as far as weighing an ad, meaning it showed one or it was too soon after the last one, two numbers from its timing calculation go with it. After each break between runs: whether there was an ad, and whether you kept playing or left. And when the game applies its ad-timing settings: whether they're built in or downloaded, whether they were usable, their version number, and how many were rejected, if any.</li>
+  </ul>
+  <p>With each of these, GameAnalytics also receives:</p>
+  <ul>
+    <li>your analytics ID: a random ID that GameAnalytics' software makes on your iPhone the first time it starts, and keeps there. The game doesn't set it</li>
+    <li>your iPhone's vendor identifier as well. It's the same in every app from one developer on your iPhone, and different for other developers' apps</li>
+    <li>whether you allowed tracking, and your iPhone's advertising identifier only if you did (see <a href="#tracking">Tracking</a>)</li>
+    <li>your iPhone model and iOS version, the game's app ID, version and build, and the version of GameAnalytics' software</li>
+    <li>an ID for each play session, how many sessions you've played and how long each one lasts, and whether you're on Wi-Fi or mobile data</li>
+    <li>your IP address, which GameAnalytics uses to work out your country, region and city. The game never asks for your location</li>
+  </ul>
+  <p>GameAnalytics' automatic error reports, frame rate and memory reports, hardware details and start-up timing report are switched off in Punch Pop.</p>
+  <p>We use analytics to see how the game is going: where runs end, whether Learn to Play makes sense, and how ads and the second chance affect play. That helps us fix problems and decide on changes.</p>
+  <p><strong>Remote settings.</strong> While analytics is on, the game also downloads settings from GameAnalytics that control how often ads between runs can appear. Every player gets the same settings. We don't use the data GameAnalytics holds to target settings at you, and we don't run A/B tests. The game still adjusts ad timing for you, but it does that on your iPhone, using the counts stored there.</p>
+  <p><strong>Your choice.</strong> In the UK, the EEA and Switzerland, the game asks first, and analytics starts only if you agree. It also asks first on an iPhone whose language and region settings point to Brazil: the region is set to Brazil, or the language is Portuguese with no region. For that the game reads only your iPhone's settings, not where you are. Everywhere else analytics is on from the first time you play, and a notice tells you so. Everyone can switch <strong>Analytics</strong> off in Settings. The game then stops sending its records straight away. GameAnalytics' software isn't started at all the next time you open the game, or after that. If the game can't tell whether you're in one of the places where it asks first, it doesn't start analytics that time.</p>
+  <p>GameAnalytics stores data in the US. Its privacy policy says it keeps event data for up to 12 months and a shortened copy of your IP address for up to 30 days, and that it doesn't use the data to advertise to you or sell it. See the <a href="https://gameanalytics.com/privacy-policy/">GameAnalytics privacy policy</a>.</p>
 
   <h2>Ads (Google AdMob)</h2>
   <p>The game shows two kinds of ad. Sometimes, when you start another run, an ad plays first. These never appear during a run, in your first session or in your first few runs. When a run ends, the game may also offer a <strong>WATCH AD</strong> button for a second chance, which plays an ad only if you tap it.</p>
   <p>To load and show ads, the game includes Google's Mobile Ads software. Google's documentation for that software says it collects:</p>
   <ul>
-    <li>device identifiers that are limited to this app, or to apps from the same developer. It doesn't get your iPhone's advertising identifier (see <a href="#tracking">Tracking</a>)</li>
+    <li>device identifiers that are limited to this app, or to apps from the same developer, and your iPhone's advertising identifier if you allowed tracking (see <a href="#tracking">Tracking</a>)</li>
     <li>approximate location, worked out from your IP address. The game never asks for your location</li>
     <li>information about the ads you see and tap, and about how you use the app, such as when it opens</li>
     <li>app performance, crash and other diagnostic information</li>
@@ -52,41 +77,48 @@
   <p>Google's consent software, which shows the consent form, also uses your approximate location and basic usage and performance information to tell whether the form is needed and to make it work.</p>
   <p>Google uses this data to show ads, measure them, analyse and improve its ad services, keep ads safe and prevent fraud. Its own policies cover that use: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. No other ad networks are built into the game.</p>
 
+  <h2 id="tracking">Tracking</h2>
+  <p>The game shows Apple's prompt asking whether Punch Pop may track your activity across other companies' apps and websites. iOS lets an app ask only once. The prompt comes after Google's consent form, where that form applies. The game waits up to 30 seconds for your answer before it loads an ad or starts analytics. If you haven't answered by then, ads load and analytics (where it's on) can start while the prompt is still open. Until you answer, no one can read your advertising identifier. If you then tap Allow, it can be used from then on.</p>
+  <ul>
+    <li><strong>If you tap Allow</strong>, iOS lets the game read your iPhone's advertising identifier. Google uses it to personalise ads and measure them, which can mean linking it with data from other companies' apps and websites. GameAnalytics receives it too, when analytics is on.</li>
+    <li><strong>If you tap Ask App Not to Track</strong>, neither the game nor Google nor GameAnalytics can read the advertising identifier. Nothing in the game changes: the same ads, the same features, nothing locked.</li>
+  </ul>
+  <p>You can change your answer at any time in your iPhone's <strong>Settings → Privacy &amp; Security → Tracking</strong>. In the UK, the EEA and Switzerland, your choice in Google's consent form also decides whether Google may personalise ads.</p>
+
   <h2>Your choices</h2>
   <ul>
-    <li><strong>Remove Ads.</strong> A one-off purchase in the game turns off the ads between runs. The WATCH AD second chance stays available, and still plays only if you tap it.</li>
-    <li><strong>Consent in the UK, EEA and Switzerland.</strong> The first time you open the game there with an internet connection, Google's consent form appears before any ad is requested. You can change your answer at any time in <strong>Settings → Privacy Choices</strong>, which shows Google's form again. That row appears once you've seen the form. You can play the whole game whatever you choose.</li>
+    <li><strong>Analytics.</strong> Switch <strong>Analytics</strong> off in the game's Settings at any time. See <a href="#analytics">Analytics</a>.</li>
+    <li><strong>Tracking.</strong> Answer Apple's prompt, or change it later in your iPhone's Settings. See <a href="#tracking">Tracking</a>.</li>
+    <li><strong>Consent in the UK, EEA and Switzerland.</strong> The first time you open the game there with an internet connection, Google's consent form appears before any ad is requested. The form lets you choose <strong>Consent</strong>, <strong>Do not consent</strong> or <strong>Manage options</strong>. You can change your answer at any time in <strong>Settings → Privacy Choices</strong>, which shows Google's form again. You can play the whole game whatever you choose.</li>
     <li><strong>Ads Google shows you.</strong> Google's <a href="https://myadcenter.google.com/">My Ad Center</a> lets you see and change how Google personalises ads.</li>
+    <li><strong>US states with their own privacy laws.</strong> The game doesn't show Google's consent form when it opens. When Google offers its US privacy message, Settings shows <strong>Privacy Choices</strong>, which opens it. There you can choose "Do Not Sell or Share My Personal Information" to ask Google not to sell or share your information for ads. You can open it again at any time.</li>
+    <li><strong>Everywhere else.</strong> The game doesn't show Google's consent form, and if Google has no privacy message for where you are, Settings has no Privacy Choices row. Apple's tracking prompt, the Analytics switch and Google's <a href="https://myadcenter.google.com/">My Ad Center</a> work everywhere.</li>
+    <li><strong>Reporting an ad.</strong> If an ad seems inappropriate, you can report it to Google from the ad itself, or email us at <a href="mailto:hello@stokogames.com">hello@stokogames.com</a> and we will report and block it. See <a href="index.html#support">Support</a>.</li>
   </ul>
 
-  <h2 id="tracking">Tracking</h2>
-  <p>Punch Pop never shows Apple's "Allow to track" prompt. Without that permission, iOS doesn't let the game or Google read your iPhone's advertising identifier. We don't use your data to track you across other companies' apps and websites.</p>
-
-  <h2>Purchases</h2>
-  <p>Remove Ads is bought through Apple's App Store. Apple handles the payment, and we never see your card or Apple ID details. The game uses Apple's purchase system on your iPhone to show the price, buy or restore Remove Ads, and check whether you own it. It keeps the answer on your iPhone. <strong>Restore</strong> in Settings brings the purchase back on a new iPhone.</p>
-
   <h2 id="contacting-us">Contacting us</h2>
-  <p>If you email us, we get your email address and whatever you choose to include, such as your iPhone model. We use it only to answer you. Your email passes through the email services we use to receive it. We keep emails as long as we need them to help you and deal with any follow-up, then delete them.</p>
+  <p>If you email us, we get your email address and whatever you choose to include, such as your iPhone model. We use it only to answer you. Your email passes through the email services we use to receive it. We keep emails for 12 months, then delete them.</p>
 
   <h2 id="apple">Apple</h2>
   <p>If you choose to share analytics with app developers in your iPhone's settings, Apple may give us anonymous, combined statistics such as download counts and crash reports. See <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
 
-  <h2>Our legal basis (UK and EU)</h2>
+  <h2>Our legal basis (UK, EEA and Switzerland)</h2>
   <ul>
     <li><strong>Answering your emails:</strong> our legitimate interest in helping players who write to us.</li>
-    <li><strong>Showing ads:</strong> our legitimate interest in paying for a free game. Where the law requires consent, such as for storing or reading information on your device for ads and for personalised ads, we rely on the choice you make in Google's consent form. Google explains its own legal bases in its privacy policy.</li>
+    <li><strong>Analytics:</strong> your consent, given in the game's notice. You can withdraw it at any time with the Analytics switch in Settings.</li>
+    <li><strong>Showing ads:</strong> our legitimate interest in paying for a free game. Where the law requires consent, such as for storing or reading information on your device for ads and for personalised ads, we rely on the choice you make in Google's consent form. Google can use your advertising identifier only if you also tap Allow on Apple's prompt. Google explains its own legal bases in its privacy policy.</li>
   </ul>
 
   <h2>Where data is processed</h2>
-  <p>Google and Apple process data in many countries, including outside the UK. Their privacy policies explain how they protect it.</p>
+  <p>GameAnalytics stores data in the US. Google and Apple process data in many countries, including outside the UK. Their privacy policies explain how they protect it.</p>
 
   <h2>Children</h2>
-  <p>Punch Pop is a general-audience game. It isn't made for children and isn't in the App Store's Kids category. Ads are requested with Google's "G" content rating, for general audiences. We don't knowingly collect personal data from children. If you think a child has emailed us, contact us and we'll delete the email.</p>
+  <p>Punch Pop is a general-audience game rated 4+, so children may play it. It isn't in the App Store's Kids category, and it doesn't ask anyone's age. Ads are limited to Google's "G" content rating, for general audiences. If a child plays, a parent can switch Analytics off in Settings and tap Ask App Not to Track on Apple's prompt (or turn tracking off later in the iPhone's Settings). If you think a child has emailed us, contact us and we'll delete the email.</p>
 
   <h2>Your rights</h2>
-  <p>You have the right to ask us for a copy of the personal data we hold about you, and to have it corrected or deleted. You can also object to or restrict how we use it, and withdraw consent at any time (for ads, in Settings → Privacy Choices). In practice, the only personal data we hold is the emails you've sent us. To use these rights, email <a href="mailto:hello@stokogames.com">hello@stokogames.com</a>. We'll reply within one month.</p>
+  <p>You have the right to ask us for a copy of the personal data we hold about you, and to have it corrected or deleted. You can also object to or restrict how we use it, and withdraw consent at any time: for analytics, with the Analytics switch in Settings; for ads, in Settings → Privacy Choices where the game shows it (in the UK, the EEA and Switzerland, and in US states with their own privacy laws when Google offers its US message); for tracking, in your iPhone's Settings → Privacy &amp; Security → Tracking. The personal data we hold is the emails you've sent us and the analytics data GameAnalytics keeps for us. That analytics data is tied to the random ID GameAnalytics makes on your iPhone and to your iPhone's vendor identifier, not to your name, so we usually can't find yours from an email alone. To use these rights, email <a href="mailto:hello@stokogames.com">hello@stokogames.com</a>. We'll reply within one month.</p>
   <p>We can't identify you in the data Google collects, so for that data, use Google's tools linked above.</p>
-  <p>If you're unhappy with how we've handled your data, you can complain to the UK Information Commissioner's Office: <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk/make-a-complaint</a>. We'd be glad to hear from you first.</p>
+  <p>If you're unhappy with how we've handled your data, you can complain to the UK Information Commissioner's Office: <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk/make-a-complaint</a>. If you live in the EEA or Switzerland, you can instead complain to the data protection authority in your country. We'd be glad to hear from you first.</p>
 
   <h2>Changes</h2>
   <p>If we change what the game collects, we'll update this page before that version is released and change the date at the top.</p>
